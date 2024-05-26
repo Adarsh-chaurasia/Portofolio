@@ -1,9 +1,12 @@
 {
+  "homepage":"https://Adarsh-chaurasia.github.io/Portofolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy" :"npm run dev",
+    "deploy" : "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -11,6 +14,7 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.6",
+    "gh-pages": "^6.1.1",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.3",
     "react": "^18",
