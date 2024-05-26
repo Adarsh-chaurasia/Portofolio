@@ -3,13 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
-import python from "@/app/images/python.jpg";
-import next from "@/app/images/next.png";
-import node from "@/app/images/nodejs.png";
-import it from "@/app/images/it.png";
-import db from "@/app/images/dbjpg.jpg";
-import js from "@/app/images/js.png";
-import tw from "@/app/images/tailwind.png";
+
 
 
 const people = [
@@ -17,39 +11,37 @@ const people = [
       id: 1,
       name: "Python",
       designation: "",
-      image:python,
+      image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png",
     },
     {
       id: 2,
       name: "Javascript / JQuery",
       designation: "",
-      image:js,
+      image:'https://multishoring.com/wp-content/uploads/2024/04/JavaScript-Symbol.png',
     },
     {
       id: 3,
       name: " SQL / MongoDB / PostgreSql",
       designation: "Databases",
-      image:
-        db,
+      image:'https://e7.pngegg.com/pngimages/346/129/png-clipart-database-database-icons-angle-table-thumbnail.png',
     },
     {
       id: 4,
       name: "ReactJs / NextJS",
       designation: "Frontend Tools",
-      image:
-        next,
+      image:'https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png',
     },
     {
       id: 5,
       name: "NodeJS / ExpressJS",
       designation: "Backend Tools",
-      image:node,
+      image:'https://miro.medium.com/v2/resize:fit:800/1*v2vdfKqD4MtmTSgNP0o5cg.png',
     },
     {
       id: 6,
       name: "Tailwind / Bootstrap",
       designation: "CSS",
-      image:tw,
+      image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX9fZzRj7BuQAtuf6RSuqIjWEaai2Vl7sFq2Y6tKq5hA&s',
     },
    
 
@@ -57,7 +49,7 @@ const people = [
         id: 7,
         name: "OOPS / DBMS / DSA",
         designation: "IT Construct",
-        image:it,
+        image:'https://play-lh.googleusercontent.com/EnxJKkoXzxrmA0RA0gUie0K4gvbRLrQhpflyMzwSMvCfk2FA6o9sBLzfWtG5qLzIBIc=w240-h480-rw',
       },
   ];
 
