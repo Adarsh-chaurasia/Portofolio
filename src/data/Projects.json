@@ -1,0 +1,28 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Akhbaar",
+        "slug": "https://github.com/Adarsh-chaurasia/Akhbaar---News-Application",
+        "description": " A Daily News Application Built which includes category wise articles and news articles.",
+        "price": 99.99,
+        "instructor": "ReactJS , Bootstrap , NewsApi",
+        "isFeatured": true,
+        "image": "/courses/guitar.png" 
+      },
+
+      {
+        "id": 2,
+        "title": "Blockchain Voting System",
+        "slug": "  https://github.com/Adarsh-chaurasia/DecentralizedVotingSystem",
+        "description": "Build the voting system in a real-world election scenario, achieving a significant increase in voter turnout and trust in the electoral process. Designed and implemented smart contracts using Solidity on the Ethereum blockchain, enabling tamper-proof and immutable voting records.",
+        "price": 99.99,
+        "instructor": "ReactJS , Bootstrap , Ethereum Blockchain , Solidity",
+        "isFeatured": true,
+        "image": "/courses/guitar.png" 
+      }
+    ]
+  }
+  
+
+
