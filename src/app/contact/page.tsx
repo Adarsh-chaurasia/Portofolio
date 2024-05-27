@@ -40,13 +40,14 @@ function Contact() {
 
       <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
 
-      If You Want to contact me then Please Reach out to me .
+      If You Want to contact me then Please Send Your Queries.
       </p>
       
 
 
 
-      <form onSubmit={handleSubmit} className="space-y-4 mt-4">
+      <form onSubmit={handleSubmit} className="space-y-4 mt-4"
+      >
         <input type="email"
         value={email} 
         

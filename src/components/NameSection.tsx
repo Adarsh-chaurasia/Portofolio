@@ -9,11 +9,7 @@ import { FlipWords } from "./ui/flip-words";
 const words : any = ["Python", "JavaScript", "ReactJs", "NodeJs", "NextJs","MongoDB","PostgreSQL","TypeScript" ,"Tailwind" ];
 function NameSection() {
 
-  const downloadResume = () => {
-    {console.log("1")}
-
-  };
- 
+  
   return (
     <div className='h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-20 md:py-0 '>
 
@@ -47,7 +43,7 @@ text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>
 
 
 <div className='mt-16'>
-    <Link href = {""} >
+    <Link href = {"https://drive.google.com/file/d/1XCjyxKA1FMhJQPx7LuUYYLjGSzg8PiGc/view?usp=sharing"} target='_blank'>
 <Button borderRadius="1.75rem"
         className="bg-white cursor-pointer dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 hover:text-lg">Resume / CV</Button>
     </Link>
