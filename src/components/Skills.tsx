@@ -15,7 +15,7 @@ const people = [
     },
     {
       id: 2,
-      name: "Javascript / JQuery",
+      name: "Javascript / JQuery / TypeScript",
       designation: "",
       image:'https://multishoring.com/wp-content/uploads/2024/04/JavaScript-Symbol.png',
     },
@@ -29,7 +29,7 @@ const people = [
       id: 4,
       name: "ReactJs / NextJS",
       designation: "Frontend Tools",
-      image:'https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png',
+      image:'https://global.discourse-cdn.com/auth0/original/2X/a/ae35edce19e64c53e5d455b22e8a2c82d093d4c9.png',
     },
     {
       id: 5,

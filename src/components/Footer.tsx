@@ -3,23 +3,17 @@ import React from 'react';
 function Footer() {
   return (
     <footer className='bg-black text-gray-400'>
-        <div className='max-w-6xl mx-auto grid grid-cols-2
-        gap-8 px-4 ' >
+        <div className='max-w-6xl mx-auto flex flex-row
+        justify-center align-items-center
+         ' >
        
        
         
-        <div>
-            <h2>Address : </h2>
-            <p>Varanasi India</p>
-            <p>chaurasiadarsh11@gmail.com</p>
-            <p>adarsh.chaurasia.2810@gmail.com</p>
-            <p>7318567891</p>
-        </div>
-
+      
         <div>
 
             <Link href={'/contact'}
-            className='hover:text-white cursor-pointer'>
+            className='hover:text-white cursor-pointer px-4 text-lg bold'>
             Contact Me
             </Link>
 
@@ -29,7 +23,7 @@ function Footer() {
 
 
         </div>
-        <p className='text-center text-gray-400 text-sm'>Made by Adarsh Chaurasia &copy; 2024</p>
+        <p className='text-center text-lg p-2 m-2 bg-gradient-to-r  md:text-md  from-red-200 via-green-200 to-indigo-400 text-transparent bg-clip-text'>Made by Adarsh Chaurasia &copy; 2024</p>
         </footer>
   )
 }
