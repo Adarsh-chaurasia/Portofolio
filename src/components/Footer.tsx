@@ -10,17 +10,7 @@ function Footer() {
        
         
       
-        <div>
-
-            <Link href={'/contact'}
-            className='hover:text-white cursor-pointer px-4 text-lg bold'>
-            Contact Me
-            </Link>
-
-
-
-        </div>
-
+     
 
         </div>
         <p className='text-center text-lg p-2 m-2 bg-gradient-to-r  md:text-md  from-red-200 via-green-200 to-indigo-400 text-transparent bg-clip-text'>Made by Adarsh Chaurasia &copy; 2024</p>

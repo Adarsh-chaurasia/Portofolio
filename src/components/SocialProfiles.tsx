@@ -26,29 +26,16 @@ export const projects = [
           "",
         link: "https://leetcode.com/u/adarshChaurasia/",
         
-      },
-      {
-        title: "Instagram",
-        description:
-          "",
-        link: "https://www.instagram.com/_adarsh_chaurasia__/",
-        
-      },
-      {
-        title: "X",
-        description:
-          "",
-        link: "https://x.com/Adarsh_ch_2810?t=j_XZA-6pdlhDbOSGJwdiQw&s=08",
-        
-      },
+      }
+      
      
 ]
 function SocialProfiles() {
   return (
 
-    <div className='p-12 bg-gray-900 upcoming'>
+    <div className='p-12 bg-gray-900 '>
 
-    <div className="max-w-7xl mx-auto sm:px-6">
+    <div className="max-w-7xl mx-auto sm:px-2">
 
         <div className="text-center">
         <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl'>Social Profiles</p>

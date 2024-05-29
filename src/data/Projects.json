@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "ReactJS , Bootstrap , NewsApi",
         "isFeatured": true,
-        "image": "/courses/guitar.png" 
+        "image": "" 
       },
 
       {
@@ -19,7 +19,18 @@
         "price": 99.99,
         "instructor": "ReactJS , Bootstrap , Ethereum Blockchain , Solidity",
         "isFeatured": true,
-        "image": "/courses/guitar.png" 
+        "image": "" 
+      },
+
+      {
+        "id": 3,
+        "title": "Tic Tac Toe",
+        "slug": "  https://adarsh-chaurasia.github.io/TicTacToe/",
+        "description": "Its a Simple TicTacToe Game .",
+        "price": 99.99,
+        "instructor": "HTML , CSS , JavaScript ",
+        "isFeatured": true,
+        "image": "" 
       }
     ]
   }
