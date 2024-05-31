@@ -14,6 +14,7 @@ function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
 
+  const [show, setShow] = useState(false);
 
 
 
@@ -30,7 +31,8 @@ function Contact() {
       '7HG1TpTl54YB6tetD')
       .then(
         (result) => {
-          setStateMessage('Message sent!');
+          setStateMessage('Thank You!');
+          setShow(true);
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
@@ -39,6 +41,7 @@ function Contact() {
         (error) => {
           setStateMessage('Something went wrong, please try again later');
           setIsSubmitting(false);
+          setShow(false);
           setTimeout(() => {
             setStateMessage(null);
           }, 5000); // hide message after 5 seconds
@@ -69,7 +72,7 @@ function Contact() {
       </h1>
       
 
-      <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+      <p className="text-neutral-500 max-w-lg mx-auto my-2 text-md text-center">
 
       Please Send Your Queries and Get Resume.
       </p>
@@ -108,7 +111,7 @@ function Contact() {
             required
           ></textarea>
           
-            
+
             <button
             type="submit"
             className="px-6 py-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
@@ -116,13 +119,19 @@ function Contact() {
               Send Message
               
               </button>
-              
-              {stateMessage && <p>{stateMessage}</p>}
+             
+
+
+
+              {stateMessage && <p className="text-white font-bold antialiased max-w-lg font-sans mx-auto my-2 text-lg text-center">{stateMessage}</p>}
 
       </form>
 
 
-      { stateMessage && <Link href = {'https://drive.google.com/file/d/1XCjyxKA1FMhJQPx7LuUYYLjGSzg8PiGc/view?usp=drive_link'}
+
+
+
+      { show && <Link href = {'https://drive.google.com/file/d/1XCjyxKA1FMhJQPx7LuUYYLjGSzg8PiGc/view?usp=drive_link'}
               target="_blank"> 
               
               <button  className="px-8 py-2 mt-12 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"> Resume / CV </button>
@@ -134,6 +143,9 @@ function Contact() {
     </div>
 
     
+    
+
+   
     
   </div>
   )
