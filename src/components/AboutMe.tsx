@@ -22,8 +22,8 @@ function AboutMe() {
       alt="Adarsh Chaurasia"
       className="rounded-full shadow-xl dark:shadow-gray-800 transition-all duration-300  filter grayscale hover:grayscale-0  sm:max-w-xs md:max-w-sm"
     />
-      <p className='mt-0 font-sans text-base md:text-lg text-neutral-300 max-w-lg mx-auto px-12'>
-      My name is Adarsh Chaurasia. I&apos;m a graduate of 2022 from PSIT College of Engineering at Kanpur with a degree in Computer Engineering. I&apos;m working in Tata Consultancy Services as a System Engineeer from past 2 Years. I&apos;m usually working on full stack project based on JAVA.  I&apos;m most passionate about coding , Building WebApps , and my goal is to pursue this passion within the field of software engineering. In my free time I like working on Full Stack Projects.
+      <p className='mt-0 font-sans text-base md:text-lg text-neutral-300 max-w-lg mx-auto px-12 hover:text-white'>
+      My name is Adarsh Chaurasia. I graduated in 2022 from PSIT College of Engineering in Kanpur with a degree in Computer Engineering. For the past two years, I have been working at Tata Consultancy Services as a System Engineer. My primary focus is on full stack projects. I am passionate about coding and building web applications, and my goal is to further this passion within the field of software engineering. In my free time, I enjoy working on full stack projects.I am proficient in multiple tech stacks, including MERN and Java.
 
       </p>
 

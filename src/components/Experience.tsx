@@ -38,7 +38,8 @@ release.
     }]
 function Experience() {
   return (
-    <div className="px-4 h-auto">
+    <div className="px-4 h-auto mb-4">
+      
           <StickyScroll content={content} />
         </div>
   )

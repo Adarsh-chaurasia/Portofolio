@@ -2,6 +2,39 @@
     "courses": [
       {
         "id": 1,
+        "title": "MecHub",
+        "slug": "/",
+        "description": "Successfully Built the mechanic calling application, achieving widespread adoption and, resulting in increased efficiency and convenience in the automotive industry.Designed and implemented the frontend interface using NextJs and TailwindCss, ensuring a user-friendly experience . Developed a robust backend infrastructure using Node.js and MongoDB , enabling seamless communication between users and mechanics in real-time.",
+        "price": 99.99,
+        "instructor": "NextJs , Typescript , TailwindCSS , MERN Stack",
+        "isFeatured": true,
+        "image": "" 
+      },
+
+
+      {
+        "id": 2,
+        "title": "VideoTube",
+        "slug": "/",
+        "description": "Developed a platform that allows users to upload, view, share, and comment on videos. Here is a high-level summary of the steps involved in building this VideoTube.",
+        "price": 99.99,
+        "instructor": "NextJs , Typescript , TailwindCSS , MERN Stack , Cloudinary",
+        "isFeatured": true,
+        "image": "" 
+      },
+
+      {
+        "id": 3,
+        "title": "Blockchain Voting System",
+        "slug": "  https://github.com/Adarsh-chaurasia/DecentralizedVotingSystem",
+        "description": "Build the voting system in a real-world election scenario, achieving a significant increase in voter turnout and trust in the electoral process. Designed and implemented smart contracts using Solidity on the Ethereum blockchain, enabling tamper-proof and immutable voting records.",
+        "price": 99.99,
+        "instructor": "ReactJS , Bootstrap , Ethereum Blockchain , Solidity",
+        "isFeatured": true,
+        "image": "" 
+      },
+      {
+        "id": 4,
         "title": "Akhbaar",
         "slug": "https://github.com/Adarsh-chaurasia/Akhbaar---News-Application",
         "description": " A Daily News Application Built which includes category wise articles and news articles.",
@@ -11,19 +44,9 @@
         "image": "" 
       },
 
-      {
-        "id": 2,
-        "title": "Blockchain Voting System",
-        "slug": "  https://github.com/Adarsh-chaurasia/DecentralizedVotingSystem",
-        "description": "Build the voting system in a real-world election scenario, achieving a significant increase in voter turnout and trust in the electoral process. Designed and implemented smart contracts using Solidity on the Ethereum blockchain, enabling tamper-proof and immutable voting records.",
-        "price": 99.99,
-        "instructor": "ReactJS , Bootstrap , Ethereum Blockchain , Solidity",
-        "isFeatured": true,
-        "image": "" 
-      },
 
       {
-        "id": 3,
+        "id": 5,
         "title": "Tic Tac Toe",
         "slug": "  https://adarsh-chaurasia.github.io/TicTacToe/",
         "description": "Its a Simple TicTacToe Game .",

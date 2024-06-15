@@ -131,7 +131,7 @@ function Contact() {
 
 
 
-      { show && <Link href = {'https://drive.google.com/file/d/1XCjyxKA1FMhJQPx7LuUYYLjGSzg8PiGc/view?usp=drive_link'}
+      { show && <Link href = {'https://drive.google.com/file/d/17_SG2htqIxtmGT_qJSBG0AGqzQujSfXV/view?usp=drive_link'}
               target="_blank"> 
               
               <button  className="px-8 py-2 mt-12 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"> Resume / CV </button>

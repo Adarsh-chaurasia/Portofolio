@@ -13,7 +13,7 @@ function Footer() {
      
 
         </div>
-        <p className='text-center text-lg p-2 m-2 bg-gradient-to-r  md:text-md  from-red-200 via-green-200 to-indigo-400 text-transparent bg-clip-text'>Made by Adarsh Chaurasia &copy; 2024</p>
+        <p className='text-center text-lg p-2 m-2 bg-gradient-to-r  md:text-md  from-red-200 via-green-200 to-indigo-400 text-transparent bg-clip-text'>Made with ❤️ by Adarsh Chaurasia &copy; 2024</p>
         </footer>
   )
 }
