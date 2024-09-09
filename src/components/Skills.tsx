@@ -79,7 +79,7 @@ function Skills() {
           duration: 0.6,
           ease: "easeInOut",
         }}
-        className="bg-gradient-to-br from-slate-200 to-slate-900 py-4 bg-clip-text text-center text-5xl  tracking-tight text-transparent md:text-7xl mb-40 font-bold"
+        className="bg-gradient-to-br from-slate-200 to-slate-900 py-4 bg-clip-text text-center text-5xl  tracking-tight text-transparent md:text-7xl mb-4Y0 font-bold"
       >
         Skills 
       </motion.h1>

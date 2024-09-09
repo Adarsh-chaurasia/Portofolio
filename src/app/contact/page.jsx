@@ -80,7 +80,7 @@ function Contact() {
         placeholder = 'Your Name'
         required
 
-            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+            className="rounded-lg border text-white border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700 focus:text-white "
 
         />
 
@@ -91,14 +91,14 @@ function Contact() {
         placeholder = 'Your Email Address'
         required
 
-            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+            className="rounded-lg border text-white text-neutral-100 border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700 focus:text-white"
 
         />
 
 <textarea
             name = "message"
             placeholder="Your message"
-            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+            className="rounded-lg border text-white border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700 focus:text-white"
             rows={5}
             required
           ></textarea>
