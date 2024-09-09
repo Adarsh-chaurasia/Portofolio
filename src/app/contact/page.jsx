@@ -18,38 +18,31 @@ function Contact() {
 
 
 
-  const handleSubmit = (e ) =>{
+  const handleSubmit = async( e ) =>{
     e.persist();
     e.preventDefault();
     setIsSubmitting(true);
+    e.preventDefault();
+    setStateMessage("Sending....");
+    const formData = new FormData(e.target);
 
+    formData.append("access_key", "b2d4fdb7-daf8-4fb1-9557-330690c9481d");
 
-    emailjs.sendForm(
-      'service_d2xejkh',
-      'template_davfi56',
-      form.current,
-      '7HG1TpTl54YB6tetD')
-      .then(
-        (result) => {
-          setStateMessage('Thank You!');
-          setShow(true);
-          setIsSubmitting(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 10000); // hide message after 5 seconds
-        },
-        (error) => {
-          setStateMessage('Something went wrong, please try again later');
-          setIsSubmitting(false);
-          setShow(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 5000); // hide message after 5 seconds
-        }
-      );
-    
-    // Clears the form after sending the email
-    e.target.reset();
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setStateMessage("Form Submitted Successfully");
+      setShow(true);
+      e.target.reset();
+    } else {
+      console.log("Error", data);
+      setStateMessage(data.message);
+    }
 
 
   }
@@ -80,8 +73,7 @@ function Contact() {
 
 
 
-      <form   onSubmit={handleSubmit} className="space-y-4 mt-2"
-      ref = {form}>
+      <form   onSubmit={handleSubmit} className="space-y-4 mt-2">
 
       <input type="text"
         name = "from_name"
@@ -123,7 +115,7 @@ function Contact() {
 
 
 
-              {stateMessage && <p className="text-white font-bold antialiased max-w-lg font-sans mx-auto my-2 text-lg text-center">{stateMessage}</p>}
+              {stateMessage && <p className="text-white font-bold antialiased max-w-lg font-sans mx-auto text-lg text-center">{stateMessage}</p>}
 
       </form>
 
@@ -131,10 +123,10 @@ function Contact() {
 
 
 
-      { show && <Link href = {'https://drive.google.com/file/d/17_SG2htqIxtmGT_qJSBG0AGqzQujSfXV/view?usp=drive_link'}
+      { show && <Link href = {'https://drive.google.com/file/d/10W8Fdcp8UTwcfkVb6jSpWTmuPX6wDSXx/view?usp=drive_link'}
               target="_blank"> 
               
-              <button  className="px-8 py-2 mt-12 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"> Resume / CV </button>
+              <button  className="px-8 py-2 mt-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"> Resume / CV </button>
               
               </Link>
               

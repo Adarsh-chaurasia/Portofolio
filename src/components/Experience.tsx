@@ -25,20 +25,20 @@ release.
 
         `,
       content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white ">
+        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-black">
         <Image
       src={imageAsset}
       width={500}
       height={500}
       alt="TCS"
-      className="rounded-md shadow-xl dark:shadow-gray-800 transition-all duration-300  "
+      className="rounded-md shadow-xl shadow-gray-800 dark:shadow-gray-800 transition-all duration-300  "
     />
         </div>
       ),
     }]
 function Experience() {
   return (
-    <div className="px-4 h-auto mb-4">
+    <div className="px-4  m-4">
       
           <StickyScroll content={content} />
         </div>

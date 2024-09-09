@@ -6,12 +6,12 @@ import { Button } from './ui/moving-border';
 import { FlipWords } from "./ui/flip-words";
  
 
-const words : any = ["Python", "JavaScript", "ReactJs", "NodeJs", "NextJs","MongoDB","PostgreSQL","TypeScript" ,"Tailwind" ];
+const words : any = ["Python", "JavaScript", "ReactJs", "NodeJs", "NextJs","MongoDB","PostgreSQL","SpringBoot" ,"TypeScript" ];
 function NameSection() {
 
   
   return (
-    <div className='h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-20 md:py-0 '>
+    <div className='h-auto bg-black md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-20 md:py-0 '>
 
 <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
@@ -33,7 +33,7 @@ text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>
 
 
 
-<div className=" mx-auto font-sans text-neutral-600 dark:text-neutral-400 text-4xl md:text-6xl m-10 px-4 text-pretty">
+<div className=" mx-auto font-sans text-neutral-600 dark:text-neutral-400 text-4xl md:text-6xl m-10 px-4 text-pretty ">
         
         
         <FlipWords words={words} />
@@ -45,7 +45,7 @@ text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>
 <div className='mt-16'>
     <Link href = {"/contact"} >
 <Button borderRadius="1.75rem"
-        className="bg-white cursor-pointer dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 hover:text-lg">Contact Me</Button>
+        className="bg-white cursor-pointer dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 hover:text-lg hover:font-serif">Contact Me</Button>
     </Link>
 </div>
 

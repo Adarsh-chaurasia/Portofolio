@@ -26,9 +26,9 @@ const data = [
 ]
 function Education() {
     return (
-      <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.2] items-center justify-center relative overflow-hidden">
+      <div className="h-[40rem] rounded-md flex flex-col antialiased bg-black bg-grid-white/[0.2] dark:bg-black dark:bg-grid-white/[0.2] items-center justify-center relative overflow-hidden">
   
-  <h2 className="text-6xl font-bold text-center mb-20 z-10"> Education</h2>
+  <h2 className="text-6xl font-bold text-center mb-20 z-10 text-white"> Education</h2>
   <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
       <div className="w-full max-w-6xl">
       <InfiniteMovingCards

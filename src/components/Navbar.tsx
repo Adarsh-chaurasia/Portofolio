@@ -13,7 +13,7 @@ function Navbar({ className }: { className?: string }) {
     >
 
         <Menu setActive={setActive}>
-            <Link href = {'/'} className="font-sans hover:font-serif md:text-2xl text-lg">
+            <Link href = {'/'} className="font-sans hover:font-serif md:text-2xl text-lg ">
             <MenuItem setActive={setActive} active={active} item="<Adarsh/>" >
             </MenuItem>
 

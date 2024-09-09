@@ -16,7 +16,6 @@ function page() {
       <Experience />
       <Projects />
       <Education/>
-      
       <SocialProfiles />
       <Skills />
       <Footer />

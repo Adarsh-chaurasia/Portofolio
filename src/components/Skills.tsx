@@ -47,8 +47,8 @@ const skills = [
 
       {
         id: 7,
-        name: "OOPS / DBMS / DSA",
-        designation: "IT Construct",
+        name: "Kafka / Docker / AWS / OOPS",
+        designation: "IT Tools",
         image:'https://play-lh.googleusercontent.com/EnxJKkoXzxrmA0RA0gUie0K4gvbRLrQhpflyMzwSMvCfk2FA6o9sBLzfWtG5qLzIBIc=w240-h480-rw',
       },
 
@@ -57,6 +57,13 @@ const skills = [
         name: "JAVA",
         designation: "Java Core",
         image:'https://i.pinimg.com/736x/e9/94/61/e99461fdd5b3db8bdb3081d8acf5e524.jpg',
+      }
+      ,
+      {
+        id: 9,
+        name: "SpringBoot",
+        designation: "SpringBoot",
+        image:'https://www.contentside.com/wp-content/uploads/2015/01/spring-boot-logo.png',
       }
   ];
 
@@ -68,7 +75,7 @@ function Skills() {
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
-          delay: 0.1,
+          delay: 0.2,
           duration: 0.6,
           ease: "easeInOut",
         }}
