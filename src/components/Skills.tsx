@@ -79,11 +79,11 @@ function Skills() {
           duration: 0.6,
           ease: "easeInOut",
         }}
-        className="bg-gradient-to-br from-slate-200 to-slate-900 py-4 bg-clip-text text-center text-5xl  tracking-tight text-transparent md:text-7xl mb-4Y0 font-bold"
+        className="bg-gradient-to-br from-slate-200 to-slate-900 py-6 bg-clip-text text-center text-5xl  tracking-tight text-transparent md:text-7xl mb-8 font-bold"
       >
         Skills 
       </motion.h1>
-      <div className="flex flex-row items-center justify-center w-full">
+      <div className="flex flex-row items-center justify-center w-full mt-8">
       <AnimatedTooltip items={skills} />
       </div>
     </LampContainer>

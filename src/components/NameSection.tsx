@@ -57,7 +57,8 @@ text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>
         
         <div>
 
-        <p className='mt-2 font-normal text-xl  text-neutral-300  mx-auto'>
+        <p className='mt-4 font-normal text-2xl  text-neutral-300  mx-auto relative w-[max-content] font-mono text-2xl before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-white'>
+
 Passionate about changing the world with technology.
 
 </p>
