@@ -23,7 +23,7 @@ const skills = [
       id: 3,
       name: " SQL / MongoDB / PostgreSql",
       designation: "Databases",
-      image:'https://e7.pngegg.com/pngimages/346/129/png-clipart-database-database-icons-angle-table-thumbnail.png',
+      image:'https://w7.pngwing.com/pngs/931/769/png-transparent-database-icon-database-free-blue-background-blue-angle-world.png',
     },
     {
       id: 4,
@@ -64,6 +64,12 @@ const skills = [
         name: "SpringBoot",
         designation: "SpringBoot",
         image:'https://www.contentside.com/wp-content/uploads/2015/01/spring-boot-logo.png',
+      },
+      {
+        id: 10,
+        name: "Shell Scripting",
+        designation: "Bash",
+        image:'https://w7.pngwing.com/pngs/48/567/png-transparent-bash-shell-script-command-line-interface-z-shell-shell-rectangle-logo-commandline-interface-thumbnail.png',
       }
   ];
 
