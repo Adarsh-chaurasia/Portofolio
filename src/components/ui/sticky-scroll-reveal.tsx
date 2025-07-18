@@ -20,8 +20,8 @@ export const StickyScroll = ({
   const { scrollYProgress } = useScroll({
     // uncomment line 22 and comment line 23 if you DONT want the overflow container and want to have it change on the entire page scroll
     // target: ref
-    container: ref,
-    offset: ["start start", "end start"],
+   // container: ref,
+   // offset: ["start start", "end start"],
   });
   const cardLength = content.length;
 
@@ -82,8 +82,11 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-slate-300 max-w-sm mt-10"
+                className="mt-10 text-sm sm:text-base md:text-kg lg:text-kg text-slate-300"
               >
+
+         
+
                 {item.description}
                 
                 

@@ -1,31 +1,29 @@
 {
     "courses": [
       {
+         
         "id": 1,
-        "title": "MecHub",
+        "title": "Document Management System",
         "slug": "/",
-        "description": "Successfully Built the mechanic calling application, achieving widespread adoption and, resulting in increased efficiency and convenience in the automotive industry.Designed and implemented the frontend interface using NextJs and TailwindCss, ensuring a user-friendly experience . Developed a robust backend infrastructure using Node.js and MongoDB , enabling seamless communication between users and mechanics in real-time.",
+        "description": "Engineered a document management system supporting secure file upload, download, archiving, and deletion.Integrated third-party REST APIs to enhance metadata handling and document workflows.",
         "price": 99.99,
-        "instructor": "NextJs , Typescript , TailwindCSS , MERN Stack",
+        "instructor": "Java , SpringBoot , PostgreSQL , JDBC , ReactJS , Hibernate , Spring Security",
         "isFeatured": true,
         "image": "" 
       },
-
-
-      {
+       {
         "id": 2,
-        "title": "VideoTube",
+        "title": "Kanban Board Application",
         "slug": "/",
-        "description": "Developed a platform that allows users to upload, view, share, and comment on videos. Here is a high-level summary of the steps involved in building this VideoTube.",
+        "description": "Developed a Kanban-style task management platform enabling dynamic task creation, updates, and stage transitions.Created robust REST APIs and a responsive React.js frontend for seamless user experience.",
         "price": 99.99,
-        "instructor": "NextJs , Typescript , TailwindCSS , MERN Stack , Cloudinary",
+        "instructor": "Java , ReactJS , SpringBoot , MySQL , Hibernate , JDBC , Spring Security",
         "isFeatured": true,
         "image": "" 
       },
-
-      {
+        {
         "id": 3,
-        "title": "Blockchain Voting System",
+        "title": "Distributed Voting System",
         "slug": "  https://github.com/Adarsh-chaurasia/DecentralizedVotingSystem",
         "description": "Build the voting system in a real-world election scenario, achieving a significant increase in voter turnout and trust in the electoral process. Designed and implemented smart contracts using Solidity on the Ethereum blockchain, enabling tamper-proof and immutable voting records.",
         "price": 99.99,
@@ -35,17 +33,25 @@
       },
       {
         "id": 4,
+        "title": "MecHub",
+        "slug": "/",
+        "description": "Successfully Built the mechanic calling application, achieving widespread adoption and, resulting in increased efficiency and convenience in the automotive industry.Designed and implemented the frontend interface using NextJs and TailwindCss, ensuring a user-friendly experience . Developed a robust backend infrastructure using Node.js and MongoDB , enabling seamless communication between users and mechanics in real-time.",
+        "price": 99.99,
+        "instructor": "NextJs , Typescript , TailwindCSS , MERN Stack",
+        "isFeatured": true,
+        "image": "" 
+      },
+      {
+        "id": 4,
         "title": "Akhbaar",
-        "slug": "https://github.com/Adarsh-chaurasia/Akhbaar---News-Application",
+        "slug": "/",
         "description": " A Daily News Application Built which includes category wise articles and news articles.",
         "price": 99.99,
         "instructor": "ReactJS , Bootstrap , NewsApi",
         "isFeatured": true,
         "image": "" 
       },
-
-
-      {
+       {
         "id": 5,
         "title": "Tic Tac Toe",
         "slug": "  https://adarsh-chaurasia.github.io/TicTacToe/",

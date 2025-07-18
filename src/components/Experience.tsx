@@ -10,19 +10,16 @@ const content = [
     {
       title: "System Engineer : Tata Consultancy Services",
       description:
-        `Implemented enhancements and updates to existing features, ensuring seamless integration and minimal disruption to
-        end-users.
-        
-        
-        Developed new features and functionalities within the Bancs application, adhering to industry standards and best
-        practices. 
-
-        Played a key role in the development and maintenance of the Bancs application including Document Management
-Application, a comprehensive banking software solution.
-
-Successfully Implemented REST Web services according to requirement and achieving a bug-free and reliable software
-release.
-
+        `Designed and developed RESTful APIs and microservices, achieving a 60% increase in system performance for
+large-scale applications.
+• Optimized SQL queries and implemented Caching strategies, resulting in 70% faster data access and reduced server
+load.
+• Launched a product to a live production environment, managing the release process to ensure seamless deployment
+and end-user satisfaction.
+• Worked Onsite with Burgan Bank for 6 Months in Kuwait, on TCS BaNCS core banking implementation and
+support.
+• Troubleshot and resolved critical production defects under tight SLAs, boosting system stability by over 70%
+• Acted as the primary liaison between business stakeholders and offshore teams, improving issue resolution speed by 50%.
         `,
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-black">
@@ -31,7 +28,7 @@ release.
       width={500}
       height={500}
       alt="TCS"
-      className="rounded-md shadow-xl shadow-gray-800 dark:shadow-gray-800 transition-all duration-300  "
+      className="rounded-md shadow-xl shadow-gray-800 dark:shadow-gray-800 duration-300  "
     />
         </div>
       ),

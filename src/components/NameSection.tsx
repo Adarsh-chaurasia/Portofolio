@@ -6,7 +6,7 @@ import { Button } from './ui/moving-border';
 import { FlipWords } from "./ui/flip-words";
  
 
-const words : any = ["Python", "JavaScript", "ReactJs", "NodeJs", "NextJs","MongoDB","PostgreSQL","SpringBoot" ,"TypeScript" ];
+const words : any = ["Java", "Spring Boot", "Spring Security" , "JavaScript", "ReactJs", "SQL", "Oracle","MongoDB","PostgreSQL", "System Design" , "Algorithms" , "Cloud Technologies"];
 function NameSection() {
 
   
@@ -20,7 +20,7 @@ function NameSection() {
         
         <div className='p-4 relative z-10 w-full text-center '>
 
-<h1 className='mt-24 md:mt-20 text-4xl md:text-7xl font-bold bg-clip-text
+<h1 className='mt-24 md:mt-28 text-4xl md:text-7xl font-bold bg-clip-text
 text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>
     Hi , I&apos;m Adarsh Chaurasia
 </h1>
@@ -57,11 +57,10 @@ text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>
         
         <div>
 
-        <p className='mt-4 font-normal text-2xl  text-neutral-300  mx-auto relative w-[max-content] font-mono text-2xl before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-white'>
-
-Passionate about changing the world with technology.
-
+<p className="mt-4 font-normal text-base sm:text-lg md:text-xl lg:text-2xl text-neutral-300 mx-auto relative w-max font-mono before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-white">
+  Passionate about changing the world with technology.
 </p>
+
         </div>
         
         
