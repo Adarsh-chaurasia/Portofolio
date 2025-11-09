@@ -1,8 +1,32 @@
 {
     "courses": [
+
+
+       {
+         
+        "id": 1,
+        "title": "DSA ChatBot AI",
+        "slug": "https://adarsh-chaurasia.github.io/DSA_AI_CHATBOT/",
+        "description": "Built a responsive Dark Mode AI Chatbot UI in a single HTML file with embedded CSS and JavaScript. Integrated Google Gemini API for real-time conversational coding assistance.",
+        "price": 99.99,
+        "instructor": "HTML , CSS , JavaScript , GenAI",
+        "isFeatured": true,
+        "image": "" 
+      },
       {
          
         "id": 1,
+        "title": "Crowdsourced Emergency Alert Platform",
+        "slug": "/",
+        "description": "Built a real-time, cloud-native emergency alert platform enabling instant incident reporting, geo-based event clustering, and advanced notification workflows using Spring Boot, Kafka, MongoDB, Redis, AWS Cloud, and GenAI for threat detection, delivering reliability and rapid response for high-impact scenarios and supports fast collaboration.",
+        "price": 99.99,
+        "instructor": "Java/SpringBoot , MongoDB , Redis , AWS , Docker , GenAI",
+        "isFeatured": true,
+        "image": "" 
+      },
+      {
+         
+        "id": 3,
         "title": "Document Management System",
         "slug": "/",
         "description": "Engineered a document management system supporting secure file upload, download, archiving, and deletion.Integrated third-party REST APIs to enhance metadata handling and document workflows.",
@@ -12,7 +36,7 @@
         "image": "" 
       },
        {
-        "id": 2,
+        "id": 4,
         "title": "Kanban Board Application",
         "slug": "/",
         "description": "Developed a Kanban-style task management platform enabling dynamic task creation, updates, and stage transitions.Created robust REST APIs and a responsive React.js frontend for seamless user experience.",
@@ -22,7 +46,7 @@
         "image": "" 
       },
         {
-        "id": 3,
+        "id": 5,
         "title": "Distributed Voting System",
         "slug": "  https://github.com/Adarsh-chaurasia/DecentralizedVotingSystem",
         "description": "Build the voting system in a real-world election scenario, achieving a significant increase in voter turnout and trust in the electoral process. Designed and implemented smart contracts using Solidity on the Ethereum blockchain, enabling tamper-proof and immutable voting records.",
@@ -32,7 +56,7 @@
         "image": "" 
       },
       {
-        "id": 4,
+        "id": 6,
         "title": "MecHub",
         "slug": "/",
         "description": "Successfully Built the mechanic calling application, achieving widespread adoption and, resulting in increased efficiency and convenience in the automotive industry.Designed and implemented the frontend interface using NextJs and TailwindCss, ensuring a user-friendly experience . Developed a robust backend infrastructure using Node.js and MongoDB , enabling seamless communication between users and mechanics in real-time.",
@@ -42,7 +66,7 @@
         "image": "" 
       },
       {
-        "id": 4,
+        "id": 7,
         "title": "Akhbaar",
         "slug": "/",
         "description": " A Daily News Application Built which includes category wise articles and news articles.",
@@ -52,7 +76,7 @@
         "image": "" 
       },
        {
-        "id": 5,
+        "id": 8,
         "title": "Tic Tac Toe",
         "slug": "  https://adarsh-chaurasia.github.io/TicTacToe/",
         "description": "Its a Simple TicTacToe Game .",

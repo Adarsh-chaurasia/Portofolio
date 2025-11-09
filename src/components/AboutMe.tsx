@@ -26,8 +26,8 @@ function AboutMe() {
      
 
       <p className="mt-4 font-sans text-sm sm:text-base md:text-lg lg:text-xl text-neutral-300 max-w-3xl mx-auto px-6 sm:px-8 md:px-12 leading-relaxed hover:text-white transition-colors duration-300 leading-relaxed text-justify">
-  Hi, I'm Adarsh — a passionate software developer with 3 years of hands-on experience building robust backend systems using Java. I earned my B.Tech in Computer Science and Engineering in 2022, and since then, I've been immersed in solving real-world problems through clean, efficient code. I’m constantly learning, experimenting, and pushing the boundaries of what I can build.
-  Let’s connect and create something impactful together.
+  Hi, I’m Adarsh—a dedicated software engineer with 3+ years of industry experience specializing in backend development using Java and Spring Boot. Since earning my B.Tech in Computer Science and Engineering in 2022, I’ve delivered scalable, well-designed systems by applying strong principles of system design and building robust microservices. Additionally, I am exploring generative AI frameworks to innovate and add intelligence into practical applications. My focus is on clean code, scalable architectures, and continuous learning—staying current with emerging technologies. I enjoy collaborating with diverse teams to build impactful, reliable software products.
+Let’s connect to explore how we can solve challenges and make a difference together.
 </p>
 
 
