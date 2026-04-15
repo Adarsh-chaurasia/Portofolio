@@ -6,7 +6,9 @@ import { Button } from './ui/moving-border';
 import { FlipWords } from "./ui/flip-words";
  
 
-const words : any = ["Java", "Spring Boot", "Spring Security" , "JavaScript", "ReactJs", "SQL", "Oracle","MongoDB","PostgreSQL", "System Design" , "Algorithms" , "Cloud Technologies"];
+const words : any = ["Java Backend Developer @ Tata Consultancy Services", "Building Multi-Agent Systems to solve real-world problems",
+   "Designing Scalable Architectures to support 10x user growth" , "Building Cloud-Native Solutions" ," Building Microservices to handle complex business logic" ,
+   " Delivering high-performance APIs and services"];
 function NameSection() {
 
   
