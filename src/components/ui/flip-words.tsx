@@ -6,7 +6,7 @@ let interval: any;
 
 export const FlipWords = ({
   words,
-  duration = 3000,
+  duration = 6000,
   className,
 }: {
   words: string[];
@@ -47,7 +47,7 @@ export const FlipWords = ({
           y: 0,
         }}
         transition={{
-          duration: 0.4,
+          duration: 0.8,
           ease: "easeInOut",
           type: "spring",
           stiffness: 100,
@@ -62,7 +62,7 @@ export const FlipWords = ({
           position: "absolute",
         }}
         className={cn(
-          "z-10 inline-block relative text-left  px-2",
+          "z-10 inline-block relative text-left px-2",
           className
         )}
         key={currentWord}
